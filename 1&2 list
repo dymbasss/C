@@ -56,7 +56,7 @@
 		return(prev);
 	}
 
-		List * getNlst(List *lst, int n) // возвращает указатель на n-й узел списка
+	List * getNlst(List *lst, int n) // возвращает указатель на n-й узел списка
 	{
 		int count = 0;
 		while(count < n && lst)
@@ -110,29 +110,29 @@
 	}
 
 	void lst_sort(List *lst)    // сортировка
-    {
-    List *temp, *new;
-    int t=0;
-    int flag=1;
-    while(flag==1)
-    {
-        temp=lst;
-        new=temp->next;
-        flag=0;
-        while(new)
-        {
-            if((temp->data)>(new->data))
-            {
-                t=temp->data;
-                temp->data=new->data;
-                new->data=t;
-                flag=1;
-            }
-            temp=temp->next;
-            new=new->next;
-        }
-    }
-}
+    	{
+    		List *temp, *new;
+    		int t=0;
+    		int flag=1;
+    		while(flag==1)
+    		{
+        		temp=lst;
+        		new=temp->next;
+        		flag=0;
+       		 	while(new)
+        		{
+           		 	if((temp->data)>(new->data))
+           			 {
+               		 		t=temp->data;
+                			temp->data=new->data;
+                			new->data=t;
+                			flag=1;
+           		 	 }
+            		temp=temp->next;
+            		new=new->next;
+        		}
+    		}
+	}
 
 	void lst_print(List *lst)   // вывод списка
 	{
