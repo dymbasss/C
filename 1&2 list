@@ -143,7 +143,5 @@
 		printf("Узел: %d\n",first->data);                      
 		if ((c = getchar()) == EOF)                                 // просмотр
 		{break;}
-			}
-			
-		
+			}	
 	}
