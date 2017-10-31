@@ -1,7 +1,7 @@
 /* Пузырьковая сортировка*/
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <header.h>
+
 #define SWAP(A, B) { int t = A; A = B; B = t; }
 
 void inputmas(int *, int n);
