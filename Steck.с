@@ -1,4 +1,5 @@
 // Стек фиксированного размера, построенный на массиве
+
 #include "header.h"
 
 	#define STACK_MAX_SIZE 20
