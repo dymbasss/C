@@ -1,7 +1,6 @@
 /*Бинарного поиск*/
 
-#include <stdio.h>
-#include <string.h>
+#include <header.h>
 
 #define MAX_ELEM 10
 int bin (int x, int *, int n);
